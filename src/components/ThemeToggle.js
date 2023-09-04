@@ -5,8 +5,8 @@ const ThemeToggle = () => {
   const { isDarkMode, setIsDarkMode } = useContext(ThemeContext);
 
   return (
-    <button onClick={() => setIsDarkMode(!isDarkMode)}>
-      Toggle Dark Mode
+    <button className='toggle-btn' onClick={() => setIsDarkMode(!isDarkMode)}>
+      {isDarkMode ? 'Light Mode' : 'Dark Mode'}
     </button>
   );
 };
