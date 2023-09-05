@@ -20,10 +20,9 @@ body {
 }
 .dark-mode .inc-exp-container,
 .dark-mode .list li {
-  background-color: var(--background-color-dark);
-  color: var(--text-color-dark);
+  background-color: var(--background-color-light);
+  color: var(--text-color-light);
 }
-
 .dark-mode .money.plus {
   color: #2ecc71;
 }
@@ -36,7 +35,6 @@ body {
   background-color: #dedede;
   color: #000000;
 }
-
 
 * {
   box-sizing: border-box;
